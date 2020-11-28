@@ -30,7 +30,7 @@ public class MathUsage {
     public int isPass(double[] values) {//判断是否挂科，未挂科返回0，否则返回挂科数
         int num = 0;//用来返回挂科数
         for(double i : values){//检查每学科绩点
-            if(i < 1){
+            if(i > 1){
                 num ++;
             }
         }

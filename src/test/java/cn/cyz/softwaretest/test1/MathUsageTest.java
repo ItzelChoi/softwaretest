@@ -9,7 +9,6 @@ import static org.junit.Assert.assertEquals;
 public class MathUsageTest {
 
 
-
     @Test
     public void isPass1() {
         double[] values = new double[] {3.59, 4.01,3.69, 4.26, 2.95, 3.26, 3.56, 3.46, 3.58, 3.17, 3.59, 0.66 };
