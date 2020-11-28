@@ -9,13 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MathUsageTest {
 
-    @BeforeEach
-    void setUp() {
-    }
 
-    @AfterEach
-    void tearDown() {
-    }
 
     @Test
     void isPass1() {
